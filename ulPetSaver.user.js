@@ -52,7 +52,8 @@ var username = document.getElementsByClassName("loggedIn");
     username = username.split(": ")[1];
     console.log(username);
 
-var petList = ` <h1><b>account</b>: ` + username + `</h1>`;
+var petList = ` 
+<h1><b>${username}</b></h1>`;
 
 function makeHTML()
 {
