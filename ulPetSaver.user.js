@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         NPC- Userlookup Pet Saver
 // @namespace    http://tampermonkey.net/
-// @version      0.01
+// @version      0.02
 // @description  works with the pet planner made by gaby (gabriela)! Saves your username & pet names/images into html
 // @author       plushies
 // @include      https://www.neopetsclassic.com/userlookup/?user=*
 // @include      https://neopetsclassic.com/userlookup/?user=*
+// @updateURL    https://github.com/kreotsai/petPlanner/raw/main/ulPetSaver.user.js
+// @downloadURL  https://github.com/kreotsai/petPlanner/raw/main/ulPetSaver.user.js
 // @icon         https://www.google.com/s2/favicons?domain=neopetsclassic.com
 // @grant        none
 // ==/UserScript==
@@ -50,7 +52,8 @@ var username = document.getElementsByClassName("loggedIn");
     username = username.split(": ")[1];
     console.log(username);
 
-var petList = `<h1><b>${username}</b></h1>`;
+var petList = `<h1><b>${username}</b></h1>
+`;
 
 function makeHTML()
 {
