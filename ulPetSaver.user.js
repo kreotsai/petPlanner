@@ -76,7 +76,7 @@ function makeHTML()
         </div> 
         `;
 
-        petList += petHTML
+        petList = petlist + petHTML
     }
 
     download(petList, "pets", "txt")
