@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NPC- Pet Planner Helper
 // @namespace    http://tampermonkey.net/
-// @version      0.03
+// @version      0.9
 // @description  Downloads HTML from a userlookup with pet names & images for use in my pet planner template.
 // @author       plushies
 // @include      https://www.neopetsclassic.com/userlookup/?user=*
