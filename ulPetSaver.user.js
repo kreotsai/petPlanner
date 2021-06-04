@@ -54,7 +54,6 @@ var username = document.getElementsByClassName("loggedIn");
 
 var petList = ` 
 <h1><b>${username}</b></h1>
-
 `;
 
 function makeHTML()
