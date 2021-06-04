@@ -6,8 +6,8 @@
 // @author       plushies
 // @include      https://www.neopetsclassic.com/userlookup/?user=*
 // @include      https://neopetsclassic.com/userlookup/?user=*
-// @updateURL    
-// @downloadURL  
+// @updateURL    https://github.com/kreotsai/petPlanner/raw/main/ulPetSaver.user.js
+// @downloadURL  https://github.com/kreotsai/petPlanner/raw/main/ulPetSaver.user.js
 // @icon         https://www.google.com/s2/favicons?domain=neopetsclassic.com
 // @grant        none
 // ==/UserScript==
