@@ -69,16 +69,15 @@ function makeHTML()
         petName = petName[1];
         //console.log(petName);
 
-        var petHTML = "\" +
-        `<div id="pet">
+        var petHTML =
+        `<div id="pet"> \
         <img src="` + imgUrl + 
-        `"><br>` + petName + 
-        `</div>` +
+        `"> \ <br>` + petName + 
+        `</div> \` +
         ` `;
 
         petList += 
-        ` ` 
-        + petHTML
+        `\`  + petHTML
     }
 
     download(petList, "pets", "txt")
