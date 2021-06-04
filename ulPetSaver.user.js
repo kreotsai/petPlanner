@@ -72,8 +72,8 @@ function makeHTML()
 
         var petHTML =`
         <div id="pet"> 
-        <img src="${imgUrl}">
-        <br>${petName} 
+            <img src="${imgUrl}">
+            <br>${petName} 
         </div> 
         `;
 
