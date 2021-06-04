@@ -1,13 +1,11 @@
 // ==UserScript==
-// @name         NPC- Userlookup Pet Saver
+// @name         NPC- Pet Planner Helper
 // @namespace    http://tampermonkey.net/
 // @version      0.03
-// @description  works with the pet planner made by gaby (gabriela)! Saves your username & pet names/images into html
+// @description  Downloads HTML from a userlookup with pet names & images for use in my pet planner template.
 // @author       plushies
 // @include      https://www.neopetsclassic.com/userlookup/?user=*
 // @include      https://neopetsclassic.com/userlookup/?user=*
-// @updateURL    https://github.com/kreotsai/petPlanner/raw/main/ulPetSaver.user.js
-// @downloadURL  https://github.com/kreotsai/petPlanner/raw/main/ulPetSaver.user.js
 // @icon         https://www.google.com/s2/favicons?domain=neopetsclassic.com
 // @grant        none
 // ==/UserScript==
