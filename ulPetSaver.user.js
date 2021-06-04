@@ -73,9 +73,12 @@ function makeHTML()
         `<div id="pet">
         <img src="` + imgUrl + 
         `"><br>` + petName + 
-        `</div>`;
+        `</div>` +
+        ` `;
 
-        petList += petHTML
+        petList += 
+        ` ` 
+        + petHTML
     }
 
     download(petList, "pets", "txt")
