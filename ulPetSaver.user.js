@@ -70,9 +70,9 @@ function makeHTML()
         //console.log(petName);
 
         var petHTML = `<div id="pet">
-        <img src="` + imgUrl + `">
-        <br>` + petName + `
-        </div>`;
+        <img src="` + imgUrl + 
+        `"><br>` + petName + 
+        `</div>`;
 
         petList += petHTML
     }
