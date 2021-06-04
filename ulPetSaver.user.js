@@ -53,7 +53,9 @@ var username = document.getElementsByClassName("loggedIn");
     console.log(username);
 
 var petList = ` 
-<h1><b>${username}</b></h1>`;
+<h1><b>${username}</b></h1>
+
+`;
 
 function makeHTML()
 {
